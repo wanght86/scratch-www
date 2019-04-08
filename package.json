@@ -108,7 +108,7 @@
     "sass-loader": "6.0.6",
     "scratch-l10n": "latest",
     "slick-carousel": "1.6.0",
-    "source-map-support": "0.3.2",
+    "source-map-support": "0.5.12",
     "style-loader": "0.12.3",
     "tap": "7.1.2",
     "url-loader": "0.5.6",
