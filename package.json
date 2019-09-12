@@ -135,7 +135,7 @@
     "tap": "14.2.0",
     "url-loader": "2.1.0",
     "watch": "0.16.0",
-    "webpack": "2.7.0",
+    "webpack": "4.40.0",
     "webpack-dev-middleware": "2.0.4",
     "xhr": "2.2.0"
   },
