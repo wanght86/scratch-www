@@ -136,7 +136,7 @@
     "url-loader": "2.1.0",
     "watch": "0.16.0",
     "webpack": "2.7.0",
-    "webpack-dev-middleware": "2.0.4",
+    "webpack-dev-middleware": "3.7.2",
     "xhr": "2.2.0"
   },
   "jest": {
