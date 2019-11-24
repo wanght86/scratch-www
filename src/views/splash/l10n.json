@@ -40,5 +40,14 @@
 
     "featureBanner.title": "The new Scratch is here!",
     "featureBanner.subtitle": "not used",
-    "featureBanner.callToAction": "call to action"
+    "featureBanner.callToAction": "call to action",
+    
+    "hocbanner.title": "Get Creative with Coding!",
+    "hocbanner.moreActivities": "See more activities",
+    "hocbanner.gettingStarted": "Getting Started",
+    "hocbanner.animationTalk": "Create Animations that Talk",
+    "hocbanner.adventureGame": "Animate an Adventure Game",
+    "hocbanner.name": "Animate a Name",
+    "hocbanner.fly": "Make it Fly",
+    "hocbanner.pong": "Pong Game"
 }
