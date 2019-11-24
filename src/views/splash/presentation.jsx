@@ -35,8 +35,8 @@ const ShareProjectMessage = require('./activity-rows/share-project.jsx');
 const TopBanner = require('./hoc/top-banner.jsx');
 const MiddleBanner = require('./hoc/middle-banner.jsx');
 
-const HOC_START_TIME = 1543813201000; // 12:01 am Dec 3rd
-const HOC_END_TIME = 1544806799000; // 11:59 Dec 14th
+const HOC_START_TIME = 1575262800; // 2019-12-02 00:00:00
+const HOC_END_TIME = 1577077200; // 2019-12-23 00:00:00
 
 require('./splash.scss');
 
