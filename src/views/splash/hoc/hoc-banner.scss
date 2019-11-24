@@ -89,17 +89,17 @@ $tile-height: 244px;
     }
 }
 
-@media only screen and (min-width: $tablet) and (max-width: $desktop) {
+@media only screen and (min-width: $tabletPortrait) and (max-width: $desktop) {
     .hoc-banner {
         height: 23.5rem;
 
         .hoc-container {
             bottom: 4rem;
-            width: $tablet;
+            width: $tabletPortrait;
         }
 
         .hoc-banner-images {
-            width: $tablet;
+            width: $tabletPortrait;
         }
 
         .hoc-banner-image {

@@ -423,23 +423,9 @@ class SplashPresentation extends React.Component { // eslint-disable-line react/
                     Date.now() < HOC_END_TIME &&
                     <MediaQuery
                         key="frameless-tablet"
-                        minWidth={frameless.tablet}
+                        minWidth={frameless.tabletPortrait}
                     >
                         <TopBanner />
-                    </MediaQuery>
-                }
-                {
-                    this.props.sessionStatus === sessionActions.Status.FETCHED &&
-                    Object.keys(this.props.user).length !== 0 && // Only show top banner if user is logged in
-                    Date.now() >= BETA_LAUNCH_TIME &&
-                    <MediaQuery
-                        key="frameless-tablet"
-                        minWidth={frameless.tablet}
-                    >
-                        {ShowSmallTopBanner ?
-                            <SmallTopBanner /> :
-                            <TopBanner actionLink="/projects/editor/" />
-                        }
                     </MediaQuery>
                 }
                 <div
@@ -502,7 +488,7 @@ class SplashPresentation extends React.Component { // eslint-disable-line react/
                     Date.now() < HOC_END_TIME && // Hide middle banner after Dec 14
                     <MediaQuery
                         key="frameless-desktop"
-                        minWidth={frameless.tablet}
+                        minWidth={frameless.tabletPortrait}
                     >
                         <MiddleBanner />
                     </MediaQuery>
